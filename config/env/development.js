@@ -26,8 +26,8 @@ module.exports = {
 		options: {
 			service: process.env.MAILER_SERVICE_PROVIDER || 'Gmail',
 			auth: {
-				user: process.env.MAILER_EMAIL_ID || 'francois.dutil@gmail.com',
-				pass: process.env.MAILER_PASSWORD || '{{Franco1s}}'
+				user: process.env.MAILER_EMAIL_ID || '',
+				pass: process.env.MAILER_PASSWORD || ''
 			}
 		}
 	}

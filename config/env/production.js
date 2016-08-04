@@ -94,12 +94,12 @@ module.exports = {
 	callbackPath: 'https://expotur-eco.herokuapp.com/oauth2callback'
 	},
 	mailer: {
-		from: process.env.MAILER_FROM || 'info@expotur-eco.com',
+		from: process.env.MAILER_FROM || 'mail@exemple.com',
 		options: {
 			service: process.env.MAILER_SERVICE_PROVIDER || 'Gmail',
 			auth: {
-				user: process.env.MAILER_EMAIL_ID || 'francois.dutil@gmail.com',
-				pass: process.env.MAILER_PASSWORD || '{{franco1s}}'
+				user: process.env.MAILER_EMAIL_ID || '',
+				pass: process.env.MAILER_PASSWORD || ''
 				//pass: process.env.MAILER_PASSWORD || 'margarita2435'
 				}
 		}
