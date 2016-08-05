@@ -1,7 +1,8 @@
 'use strict';
 
 module.exports = {
-	db: 'mongodb://localhost/magictour-demo',
+	db: 'mongodb://francois:franco1s@ds145295.mlab.com:45295/magictour-demo',
+	/* db: 'mongodb://localhost/mtc-tours',*/
 	app: {
 		title: 'Magictour - Demo LOCAL'
 	},
